@@ -116,6 +116,8 @@ int main_threshold(int argc, char* argv[])
 
 	cmdline(&argc, argv, 3, 3, usage_str, help_str, ARRAY_SIZE(opts), opts);
 
+	num_init();
+
 
 	const int N = DIMS;
 	long dims[N];

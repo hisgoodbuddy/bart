@@ -40,6 +40,8 @@ int main_join(int argc, char* argv[])
 {
 	cmdline(&argc, argv, 3, 1000, usage_str, help_str, 0, NULL);
 
+	num_init();
+
 	int N = DIMS;
 
 	int dim = atoi(argv[1]);
