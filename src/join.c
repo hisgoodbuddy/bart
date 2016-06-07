@@ -13,6 +13,7 @@
 #include <string.h>
 
 #include "num/multind.h"
+#include "num/init.h"
 
 #include "misc/mmio.h"
 #include "misc/debug.h"
